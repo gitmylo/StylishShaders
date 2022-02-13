@@ -100,7 +100,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _LightLevels: 1.5
+    - _LightLevels: 2
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -112,7 +112,7 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
-    - _UseNormal: 0
+    - _UseNormal: 1
     - _UseTexture: 1
     - _WorkflowMode: 1
     - _ZWrite: 1
