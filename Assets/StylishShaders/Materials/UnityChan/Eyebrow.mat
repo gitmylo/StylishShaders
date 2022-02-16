@@ -112,7 +112,7 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
-    - _UseNormal: 0
+    - _UseNormal: 1
     - _UseTexture: 1
     - _WorkflowMode: 1
     - _ZWrite: 1
