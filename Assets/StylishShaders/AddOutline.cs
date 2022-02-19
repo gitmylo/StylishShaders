@@ -26,10 +26,9 @@ public class AddOutline : MonoBehaviour
             r.shadowCastingMode = ShadowCastingMode.Off;
             
             //set material/materials of the clone to the outline material
+            if (r.material != null) r.material = outlineMaterial;
             if (r.materials != null && r.materials.Length != 0)
                 for (int i = 0; i < r.materials.Length; i++) r.materials[i] = outlineMaterial;
-            else if (r.material != null) r.material = outlineMaterial;
-            
         }
     }
 }
