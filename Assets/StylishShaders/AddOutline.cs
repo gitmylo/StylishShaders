@@ -19,7 +19,7 @@ public class AddOutline : MonoBehaviour
         foreach (var renderer in renderers)
         {
             var go = renderer.gameObject;
-            var c = Instantiate(go);
+            var c = Instantiate(go, go.transform.parent);
             var r = c.GetComponent<Renderer>();
             
             //outlines don't cast shadows dummy
